@@ -1,0 +1,65 @@
+
+*{box-sizing: border-box;
+    padding: 0;
+}
+img{
+    width: 300px;
+}
+.content-wrap{
+    
+    margin: 0 auto;
+    padding: 20px;
+}
+#navbar{ 
+    background:skyblue;
+    z-index: 102;
+    overflow: hidden;
+}
+#navbar a{
+    float: right;
+    font-size: 17px;
+    text-decoration: none;
+    display: block;
+    padding: 18px 20px;
+}
+.header-container{
+    background: thistle;
+    text-align: center;
+  
+}
+.image-area{
+  display: flex ;
+  background: darkslategrey;
+align-items: center;
+}
+
+.contacts{
+    text-align: center;
+    background: royalblue;
+   
+}
+.contacts a{
+    text-decoration: none;
+    font-size: 20;
+    display: inline-block;
+    
+}
+
+a :hover{
+    color: red;
+    display:flex;
+}
+
+.services{
+    text-align: center;
+    background: rgb(123, 155, 182);
+   
+}
+body{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    
+}
+h1{font-family: 'Dancing Script', cursive;
+font-size: 70px;
+}
